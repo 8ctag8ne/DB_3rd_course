@@ -4,7 +4,6 @@ from typing import Dict, Any
 from mongo_database import MongoDatabase
 from ms_sql_database import MSSQLDatabase
 from database_tester import DatabasePerformanceTester
-from comparison import visualise
 
 
 def format_performance_results(output_file: str) -> Dict[str, Any]:
